@@ -1,0 +1,9 @@
+{
+  "name": "mjmodzz-krunker-cheat",
+  "version": "0.0.0",
+  "description": "MJMODZZ Krunker Cheat",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
