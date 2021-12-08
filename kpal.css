@@ -1,0 +1,540 @@
+: root {
+	--verified - color: #00ff00
+}
+
+/* Universal Selector */
+
+* {
+	color: #ffffff
+}
+
+a {
+	color: #00ff00
+}
+
+a: active {
+	color: #00ff00
+}
+
+a: hover {
+	color: #00ff00
+}
+
+a: visited {
+	color: #00ff00
+}
+
+.b {
+	color: rgba(255, 255, 255, 0.8)!important;
+}
+
+/* Icon */
+
+.iconProfile {
+	background - image: url(https://www.senertec.de/wp-content/uploads/2020/04/blank-profile-picture-973460_1280.png);
+}
+
+.iconShop {
+	background - image: url(https://banner2.cleanpng.com/20190304/bbb/kisspng-shopping-cart-clip-art-image-5c7cfa5ad11a55.8651126515516944268565.jpg);
+}
+
+.iconChall {
+	background - image: url(https://media.discordapp.net/attachments/719789737833005108/762218855073579018/chall.png);
+}
+
+.iconGames {
+	background - image: url(https://media.discordapp.net/attachments/719789737833005108/762218857141239838/games.png);
+}
+
+.iconMods {
+	background - image: url(https://media.discordapp.net/attachments/719789737833005108/762218859490443284/mods.png);
+}
+
+.iconSettings {
+	background - image: url(https://media.discordapp.net/attachments/719789737833005108/762218865274781696/settings.png);
+}
+
+/* Menu */
+
+.terms {
+	color: #00ff00
+}
+
+.standout {
+	color: #00ffff
+}
+
+.headerBar {
+}
+
+.headerBarLeft {
+	border - radius: 0px padding - right: 7px
+}
+
+.progressBarInner {
+	background - color: #00ff00
+}
+
+.button {
+	background - color: #323232!important;
+	box - shadow: inset 0 - 7px 0 0 #000000!important;
+	color: #00ff00;
+}
+
+.buttonP {
+	color: #9500ff
+}
+
+.buttonR {
+	color: #9500ff
+}
+/*
+.krSocial {
+	background-color: #191919;
+	box-shadow: inset 0 -5px 0 0 #191919;
+}
+*/
+.buttonP.lgn {
+	color: #9500ff
+}
+
+.mailFrom {
+	color: #00ff00
+}
+
+.mailDate {
+	color: rgba(255, 255, 255, .5);
+}
+
+.mailText {
+	color: rgba(255, 255, 255, .5);
+}
+
+/* Window */
+
+#menuWindow {
+	background - color: #191919;
+	-webkit - box - shadow: 0 9px 0 0 #191919;
+	-moz - box - shadow: 0 9px 0 0 #191919;
+	box - shadow: 0 9px 0 0 #191919;
+}
+
+.serverHeader {
+	background - color: #191919
+}
+
+.settingsHeader {
+	background - color: #191919
+}
+
+.settingsBtn {
+	background - color: #00ff00
+}
+
+#settSearch {
+	background - color: #191919
+}
+
+#serverSearch {
+	background - color: #191919
+}
+
+.slide {
+	border - color: #191919
+}
+
+.inputGrey {
+	background - color: #191919
+}
+
+.inputGrey2 {
+	background - color: #191919
+}
+
+.settName, .settNameSmall {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.quickJoin {
+	background - color: #00ff00
+}
+
+.slider {
+	background - color: #191919
+}
+
+input: checked + .slider2 {
+	background - color: #00ff00
+}
+
+.sliderM {
+	background - color: #191919;
+	border - radius: 32px
+}
+
+	.sliderM:: -webkit - slider - thumb {
+	border - radius: 32px;
+	height: 25px;
+	width: 25px;
+	background - color: #00ff00
+}
+
+.sliderVal {
+	background - color: #00ff00
+}
+
+#requiresRestart {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+input[type = number] {
+	background - color: #00ff00
+}
+
+input[type = color] {
+	background - color: #191919;
+	border - color: #191919;
+	border - radius: 0px
+}
+
+input[type = text] {
+	background - color: #191919!important
+}
+
+input: checked + .slider {
+	background - color: #00ff00
+}
+
+:: -webkit - scrollbar - thumb {
+	background - color: #444444
+}
+
+:: -webkit - scrollbar - track {
+	background - color: #212121
+}
+
+/* Map Panel */
+
+#presetSelect {
+	background - color: #191919!important
+}
+
+span[style *= "float:right;color:rgba(0,0,0,0.3)"] {
+	color: rgba(255, 255, 255, 0.3)!important;
+}
+
+#hCustCost {
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+
+.hostPresetBtn {
+	background - color: #00ff00
+}
+
+.hostMap {
+	border - color: #191919;
+	border - radius: 0px
+}
+
+.hostOpt {
+	border - color: #191919;
+	border - radius: 0px
+}
+
+.hostToggle {
+	background - color: rgb(255, 71, 71)
+}
+
+.optCheck {
+	border - radius: 0px
+}
+
+input: checked + .optCheck {
+	background - color: #00ff00
+}
+
+input: hover + .optCheck {
+	background - color: #c3c3c3
+}
+
+span[style *= "float:right;margin-right:10px;color:rgba(0,0,0,0.5)"] {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+/* Account */
+
+.accountInput {
+	background - color: #191919;
+	color: rgba(255, 255, 255, .6);
+}
+
+.accountButton {
+	background - color: #00ff00
+}
+
+/* Customize */
+
+#loadoutSelect {
+	background - color: #191919!important
+}
+
+.loadoutBtn {
+	background - color: #00ff00
+}
+
+/* Class */
+
+.clsXPBarC {
+	background - color: #00ff00
+}
+
+/* Profile Panel */
+
+.menuTabNew {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.xpBarB {
+	background - color: #00ff00
+}
+
+.floatR > span[style *= "color:rgba(0,0,0,0.5)"] {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+div[style *= "color:rgba(0,0,0,0.3);margin-top:-5px;margin-bottom:10px"] {
+	color: rgba(255, 255, 255, 0.3)!important;
+}
+
+div[style = "font-size:17px;color:rgba(0,0,0,0.4);margin-top:5px"] {
+	color: rgba(255, 255, 255, 0.4)!important;
+}
+
+div[style = "margin-bottom:10px;color:rgba(0,0,0,0.5);"] {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+div[style = "color:rgba(0,0,0,0.4);margin-bottom:20px"] {
+	color: rgba(255, 255, 255, 0.4)!important;
+}
+
+div#accResp {
+	color: rgba(255, 255, 255, .5)!important;
+}
+
+#accResp > span[style *= "color:rgba(0,0,0,0.8)"] {
+	color: rgba(255, 255, 255, .8)!important;
+}
+
+span[style *= "float:right;color:rgba(0,0,0,0.4)"] {
+	color: rgba(255, 255, 255, 0.4)!important;
+}
+
+input[type = password] {
+	background - color: #191919!important
+}
+
+.subPassChg {
+	background - color: #00ff00
+}
+
+/* Shop */
+
+div[style = "color:rgba(0,0,0,0.3);font-size:19px;margin-bottom:-3px"] {
+	color: rgba(255, 255, 255, 0.3)!important;
+}
+
+div[style *= "color:rgba(0,0,0,0.3);font-size:19px;margin-bottom:5px"] {
+	color: rgba(255, 255, 255, 0.3)!important;
+}
+
+div[style *= "color:rgba(0,0,0,0.3);margin-bottom:10px"] {
+	color: rgba(255, 255, 255, 0.3)!important
+}
+
+#premTime {
+	color: rgba(255, 255, 255, .5);
+}
+
+.redVouchBtn {
+	background - color: #00ff00
+}
+
+/* Challenge */
+
+.xpBarB {
+	background - color: #00ff00
+}
+
+span[style *= "color: rgba(0, 0, 0, 0.5);"] {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.chalXPBarC {
+	background - color: #00ff00
+}
+
+/* Player List */
+div[style *= "background-color:gainsboro;border-radius:6px;padding:5px"] {
+	background - color: #191919!important
+}
+
+.settNameSmall > span[style *= "color: #353535"] {
+	color: #cacaca!important;
+}
+
+.grey > span[style *= "color: #353535"] {
+	color: #cacaca!important
+}
+
+/* Ranked */
+
+.joinQueue {
+	background - color: rgb(255, 71, 71);
+	box - shadow: inset 0 - 10px 0 0 rgb(228, 39, 19)
+}
+
+	.joinQueue: hover {
+	box - shadow: inset 0 - 7px 0 0 rgb(228, 39, 19)
+}
+
+/* Chat */
+
+#chatInput {
+	background - color: #191919;
+}
+
+/* Free KR */
+#claimPop {
+	background: #191919;
+}
+
+/* Custom Controls */
+#setToggle {
+	background - color: #191919;
+}
+
+/* Bubble */
+
+.speechBox {
+	background - color: #191919;
+	color: rgba(255, 255, 255, .6);
+}
+
+.sb1: before {
+	border - left - color: #191919;
+	border - top - color: #191919
+}
+
+/* KPD */
+
+#policePopC {
+	background - color: #191919
+}
+
+	#policePopC > div[style *= "color:rgba(0,0,0,0.6);font-size:19px"] {
+	color: rgba(255, 255, 255, .6)!important;
+}
+
+.polApplc {
+	border - color: #ffffff;
+}
+
+#activateKDM: hover {
+	background - color: #fff!important
+}
+
+/* Spectating */
+
+.specContrI {
+	color: #00ff00
+}
+
+/* Misc */
+
+i.material - icons.premiumSkinCol {
+	color: #00ff00!important
+}
+
+#voiceDisplay {
+	display: none
+}
+
+#mainLogo {
+	content: url(https://i.imgur.com/vQ9Mm5C.png);
+		height: 200px;
+}
+
+
+
+.changeText {
+	color: rgba(255, 255, 255, .5);
+}
+
+.partnerItem {
+	color: rgba(255, 255, 255, .4);
+}
+
+#menuWindow > div[style *= "color:rgba(0,0,0,0.6);margin-bottom:20px"] {
+	color: rgba(255, 255, 255, .6)!important;
+}
+
+.settText {
+	color: #00ff00
+}
+
+.wepLink[style *= "color:#2196F3"] {
+	color: #00ff00!important
+}
+
+#menuClassNameTag {
+	margin - top: -360px
+}
+
+.skinColorItem {
+	border - color: #222;
+	transition: all .2s
+}
+
+input: checked + .sliderSml {
+	background - color: #00ff00
+}
+
+.mailFrom {
+}
+
+.grey {
+	color: rgba(255, 255, 255, .5);
+}
+
+	.grey: hover {
+	color: rgba(255, 255, 255, .75);
+}
+
+	.grey: visited {
+	color: rgba(255, 255, 255, .5);
+}
+
+#hideFull > .grey {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
+
+b[style *= "color:rgba(0,0,0,0.6)"] {
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+
+b > span[style *= "float:right;color:rgba(0,0,0,0.6)"] {
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+
+div.settName > div[style *= "float:right;color:rgba(0,0,0,0.8)"] {
+	color: rgba(255, 255, 255, .8)!important;
+}
+
+span > span[style *= "color:#000"] {
+	color: #fff!important
+}
+
+i.material - icons[style *= "color:#2196F3"] {
+	color: var(--verified - color)!important
+}
